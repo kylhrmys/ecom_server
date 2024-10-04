@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "1to1"
+version = "0.1.0"
+description = "E-commerce API"
+authors = ["ERP Dev Solutions"]
+license = "ERP"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.1"
+djangorestframework-simplejwt = "^5.3.1"
+pillow = "^10.4.0"
+drf-yasg = "^1.21.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.8.0"
+setuptools = "^75.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
